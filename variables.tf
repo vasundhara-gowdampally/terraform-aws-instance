@@ -20,7 +20,7 @@ variable "sg_ids" {
 }
 
 # Empty,means optional
-variabe "tags" {
+variable "tags" {
     type = map
     default = {}
 }
